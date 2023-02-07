@@ -4,7 +4,7 @@
 
     <div class="container w-50 border p-4">
 
-        <h1>Agendar cita</h1>
+        <h1>Agendar nueva cita</h1>
 
         <form action="{{ route('citas') }}" method="POST">
             @csrf

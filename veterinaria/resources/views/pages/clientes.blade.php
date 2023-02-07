@@ -4,7 +4,7 @@
 
     <div class="container w-50 border p-4">
 
-        <h1>Agregar cliente</h1>
+        <h1>Registar cliente</h1>
 
         <form action="{{ route('clientes') }}" method="POST">
             @csrf
